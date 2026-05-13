@@ -1,0 +1,134 @@
+img
+{
+    max-width: 100%;
+    min-width: 300px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: middle;
+}
+
+html, body {
+  height: auto;
+  margin: 0;
+}
+
+
+h1 span { 
+  background-color: rgb(255, 254, 254, 0.45); 
+}
+
+h4 span { 
+  background-color: rgb(255, 254, 254, 0.75); 
+}
+
+#link_text {
+  text-align: center;
+  background-color: rgba(196, 130, 132, 0.75); 
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+a {
+  color: rgb(29, 25, 55);
+}
+
+.header {
+  padding: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/header_bg.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center;   
+  background-size: cover;   
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin: 0;
+    display: flex;
+  flex-direction: column;
+}
+
+#furnace_title {
+  float:left;
+  font-size:60px;
+  padding: 20px;
+}
+
+#center_div_top {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#kultura_title {
+  float:right;
+  font-size:50px;
+  padding: 20px;
+}
+
+#home_text {
+  font-size:20px;
+  padding: 20px;
+}
+
+#about_text {
+  float:left;
+  font-size:1.08em;
+  padding: 0px;
+}
+
+#wrap {
+  width: 100%;
+  max-width: 1400px;
+  height: 700px;
+  display: flex;
+}
+
+#centering {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+.box {
+  flex: 1;
+  height: 100%;
+  border: none;
+}
+
+#one {
+  background-color: rgba(198, 122, 124, 0.8);
+}
+
+#two {
+  margin: 0 5%;
+  background-color: white;
+}
+
+#three {
+  background-color: rgba(198, 122, 124, 0.8);
+}
+
+#four {
+  margin: 0 5%;
+  background-color: white;
+}
+
+
+#left_nav_journals {
+  float:left;
+  width: 50%;
+  font-size:20px;
+  padding: 20px;
+}
+
+#right_nav_journals {
+  float:right;
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+
+
